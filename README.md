@@ -6,7 +6,7 @@
 2. Execute the below two commands in OPNsense shell (either as root user or use sudo)
 
 ```
-sudo fetch -o /usr/local/etc/pkg/repos/guru-repo.conf https://raw.githubusercontent.com/gspannu/OPN-Plugins/main/guru-repo.conf;
+sudo fetch -o /usr/local/etc/pkg/repos/guru-repo.conf https://raw.githubusercontent.com/gspannu/OPN-Plugins/master/guru-repo.conf;
 sudo pkg update -f
 ```
 
