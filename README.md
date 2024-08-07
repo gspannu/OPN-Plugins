@@ -33,8 +33,14 @@ search home
 >OPNsense GUI > Services > ISC DHCPv4 > [InterfaceName] > DNS servers. Specify the [interface IP address] address here e.g. 192.168.1.1 or 192.168.10.1. Do this for all DHCPv4 interfaces and it ensures that all clients will obtain the router IP address as DNS resolver (just in case Blocky fails to register on port 53). Read about this issue here for more details: https://github.com/opnsense/core/issues/6513#issuecomment-1516642071
 ---
 
-12. Removing os-blocky plugin
+12. **Removing os-blocky plugin**
+- Disable Blocky DNS from OPNsense GUI > Services > Blocky DNS
+- Ensure that internet is working fine (i.e. enable some other DNS resolver, etc.)
+- Delete Blocky from OPNsense
+  - GUI > System > Firmware > Plugins : Remove os-blocky
+- Refresh OPNsense GUI browser
 
+- Now login to OPNsense shell
 ```
 sudo rm /usr/local/etc/pkg/repos/guru-repo.conf
 sudo pkg update -f
