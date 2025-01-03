@@ -1,6 +1,11 @@
 ## Install various DNS plugins (Blocky, ControlD and NextDNS) on OPNsense
 
 ---
+
+Update: 2025-02-03
+* Updated AdGuardHome DNS package
+
+--------------------------------
 Update: 2024-10-26
 * Added 2 more packages to the repo (**ControlD** and **NextDNS**)
 * Both operate the same as Blocky and are other DNS Resolvers with AdBlocking
