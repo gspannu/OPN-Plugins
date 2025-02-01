@@ -1,11 +1,12 @@
 ## Install various DNS plugins (AdGuardHome, Blocky, ControlD and NextDNS) on OPNsense
 
 ---
+Update: 2025-02-01
+* Updated AdGuardHome,Blocky,NextDNS plugins for OPNsense stable 25.1 release
 
 Update: 2025-01-20
 * Updated Blocky to v0.25 and for OPNsense v25.1b
 * Updated NextDNS for OPNsense v25.1b
-
 
 Update: 2025-01-03
 * Updated AdGuardHome DNS package
