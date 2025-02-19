@@ -1,6 +1,14 @@
 ## Install various DNS plugins (AdGuardHome, Blocky, ControlD and NextDNS) on OPNsense
 
 ---
+Update: 2025-02-19
+* Added Speedtest Plugin (with custom widget) to this repo
+	Copy of speedtest plugin from mimugmail, but added custom widget
+* Removed support for FreeBSD v13
+* Updated AdGuardHome beta version
+* Contains AdGuardHome, Blocky, ControlD, NextDNS and Speedtest plugins for OPNsense stable 25.1 release
+
+
 Update: 2025-02-01
 * Updated AdGuardHome,Blocky,NextDNS plugins for OPNsense stable 25.1 release
 
