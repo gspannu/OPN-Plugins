@@ -1,4 +1,6 @@
-## Install various DNS plugins (AdGuardHome, Blocky, ControlD and NextDNS) on OPNsense
+## Install various plugins (AdGuardHome, Blocky, ControlD, NextDNS, Speedtest) on OPNsense
+
+###Updated for OPNsense v25.1
 
 ---
 Update: 2025-02-19
