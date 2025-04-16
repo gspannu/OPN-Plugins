@@ -1,14 +1,13 @@
-## Install various plugins (AdGuardHome, Blocky, ControlD, NextDNS, Speedtest) on OPNsense
+## Install various plugins (AdGuardHome, Blocky, ControlD, NextDNS, Speedtest, Telegram) on OPNsense
 
 ### Updated for OPNsense v25.1
 
 ---
 Update: 2025-04-16
-* Added Telegram Plugin to this repo
-* Updated AdGuardHome beta version
+* Added Telegram (Monit alerts to Telegram bot) plugin to this repo
 * Contains AdGuardHome, Blocky, ControlD, NextDNS, Speedtest and Telegram plugins for OPNsense stable 25.1 release
 
-
+---
 Update: 2025-02-19
 * Added Speedtest Plugin (with custom widget) to this repo
 	Copy of speedtest plugin from mimugmail, but added custom widget
