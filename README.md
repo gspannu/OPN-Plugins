@@ -3,6 +3,11 @@
 ### Updated for OPNsense v25.1
 
 ---
+Update: 2025-07-11
+* Updated Blocky to version 0.26.2
+* Contains AdGuardHome, Blocky, ControlD, NextDNS, Speedtest and Telegram plugins for OPNsense stable 25.1 release
+
+---
 Update: 2025-04-16
 * Added Telegram (Monit alerts to Telegram bot) plugin to this repo
 * Contains AdGuardHome, Blocky, ControlD, NextDNS, Speedtest and Telegram plugins for OPNsense stable 25.1 release
