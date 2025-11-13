@@ -1,6 +1,13 @@
 ## Install various plugins (AdGuardHome, Blocky, ControlD, NextDNS, Speedtest, Telegram) on OPNsense
 
 ### Updated for OPNsense v25.7
+
+---
+Update: 2025-11-13(1)
+* Updated Blocky to v0.28.1
+* Contains AdGuardHome, Blocky, ControlD, NextDNS, Speedtest and Telegram plugins
+  for OPNsense stable 25.7 release
+
 ---
 Update: 2025-11-13
 * Updated Blocky to v0.28.0
