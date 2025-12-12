@@ -3,7 +3,7 @@
 ### Updated for OPNsense v25.7
 
 ---
-INSTALL instructions
+INSTALL instructions (LATEST)
 
 1. Login to OPNsense shell.
 2. Execute the below two commands in OPNsense shell (either as root user or use sudo)
@@ -25,8 +25,10 @@ Update: 2025-12-12
 * Updated .conf file to new location on Github pages
 
 * Use new conf file, in OPNsense shell
-* sudo fetch -o /usr/local/etc/pkg/repos/guru-repo.conf https://gspannu.github.io/OPN-Plugins/repo/guru-repo.conf
-* sudo pkg update -f
+```
+sudo fetch -o /usr/local/etc/pkg/repos/guru-repo.conf https://gspannu.github.io/OPN-Plugins/repo/guru-repo.conf
+sudo pkg update -f
+```
 
 ---
 Update: 2025-12-11
