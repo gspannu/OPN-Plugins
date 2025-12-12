@@ -3,6 +3,13 @@
 ### Updated for OPNsense v25.7
 
 ---
+Update: 2025-12-11
+* Updated Blocky to v0.28.2
+* Updated AdGuardHome to v0.108.0-b.80 (beta version)
+* Contains AdGuardHome, Blocky, ControlD, NextDNS, Speedtest and Telegram plugins
+  for OPNsense stable 25.7 release
+
+---
 Update: 2025-11-13(1)
 * Updated Blocky to v0.28.1
 * Contains AdGuardHome, Blocky, ControlD, NextDNS, Speedtest and Telegram plugins
