@@ -6,13 +6,11 @@
 INSTALL instructions (LATEST)
 
 1. Login to OPNsense shell.
-2. Execute the below two commands in OPNsense shell (either as root user or use sudo)
-
+2. Execute the below commands in OPNsense shell (either as root user or use sudo)
 ```
-sudo fetch -o /usr/local/etc/pkg/repos/guru-repo.conf https://gspannu.github.io/OPN-Plugins/repo/guru-repo.conf
+sudo fetch -o /usr/local/etc/pkg/repos/guru-repo.conf https://gspannu.github.io/OPN-Plugins/guru-repo.conf
 sudo pkg update -f
 ```
-
 3. On OPNsense, login to GUI. Go to System> Firmware> Plugins, Enable Show Community Plugins
 4. Search for guru, it will list all plugins like AdGuardHome, Blocky, etc...
 4. Install the required plugin
@@ -26,7 +24,7 @@ Update: 2025-12-12
 
 * Use new conf file, in OPNsense shell
 ```
-sudo fetch -o /usr/local/etc/pkg/repos/guru-repo.conf https://gspannu.github.io/OPN-Plugins/repo/guru-repo.conf
+sudo fetch -o /usr/local/etc/pkg/repos/guru-repo.conf https://gspannu.github.io/OPN-Plugins/guru-repo.conf
 sudo pkg update -f
 ```
 
