@@ -2,6 +2,10 @@
 
 ### Updated for OPNsense v25.7
 
+Update: 2025-12-12
+* Repo packages now hosted seperately
+* Updated .conf file to new location
+
 ---
 Update: 2025-12-11
 * Updated Blocky to v0.28.2
