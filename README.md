@@ -1,6 +1,6 @@
 ## Install various plugins (AdGuardHome, Blocky, ControlD, NextDNS, Speedtest, Telegram) on OPNsense
 
-### Updated for OPNsense v25.7
+### Updated for OPNsense v26.1
 
 ---
 INSTALL instructions (LATEST)
@@ -17,6 +17,18 @@ sudo pkg update -f
 5. Refresh the browser page to reload OPNsense GUI
 
 ---
+
+Update: 2026-02-22
+* Recompiled for OPNsense 26.1 release
+* Repo packages now hosted on Github pages due to some issues with Last Modified Header
+* Updated .conf file to new location on Github pages
+
+* Use new conf file, in OPNsense shell
+```
+sudo fetch -o /usr/local/etc/pkg/repos/guru-repo.conf https://gspannu.github.io/OPN-Plugins/guru-re>
+sudo pkg update -f
+```
+
 
 Update: 2025-12-12
 * Repo packages now hosted on Github pages due to some issues with Last Modified Header
