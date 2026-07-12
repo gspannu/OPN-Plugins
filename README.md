@@ -18,6 +18,13 @@ sudo pkg update -f
 
 ---
 
+Update: 2026-07-12
+* Updated Blocky to v0.33.0
+* Contains AdGuardHome, Blocky, ControlD, NextDNS, Speedtest and Telegram plugins
+  for OPNsense stable 26.1 release
+* I will be updating all plugins once 26.7 gets released in a few weeks time.
+---
+
 Update: 2026-02-22
 * Recompiled for OPNsense 26.1 release
 * Repo packages now hosted on Github pages due to some issues with Last Modified Header
