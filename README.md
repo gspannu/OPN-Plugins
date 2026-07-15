@@ -18,12 +18,18 @@ sudo pkg update -f
 
 ---
 
-Update: 2026-07-13
-* Updated AdGuardHome to v0.108.0-b.88 (beta version)
+Update: 2026-07-15
+* This is the last version update for OPNsense 26.1
+* Future versions will only be updated for 26.7 and above
+* I will be updating all plugins for 26.7 over the weekend...
+
+---
+* Updated AdGuardHome to v0.108.0-b.89 (beta version)
 * Updated Blocky to v0.33.0
+* Updated ControlD to v1.5.4
+* Updated NextDNS to v1.47.3
 * Contains AdGuardHome, Blocky, ControlD, NextDNS, Speedtest and Telegram plugins
   for OPNsense stable 26.1 release
-* I will be updating all plugins once 26.7 gets released in a few weeks time.
 ---
 
 Update: 2026-02-22
