@@ -1,6 +1,6 @@
 ## Install various plugins (AdGuardHome, Blocky, ControlD, NextDNS, Speedtest, Telegram) on OPNsense
 
-### Updated for OPNsense v26.1
+### Updated for OPNsense v26.7
 
 ---
 INSTALL instructions (LATEST)
@@ -16,6 +16,11 @@ sudo pkg update -f
 4. Install the required plugin
 5. Refresh the browser page to reload OPNsense GUI
 
+---
+Update: 2026-07-15, 23:10hrs
+* Compiled version for OPNsense 26.7 release
+* This is as yet not tested fully, any issues found - please report on GitHub project here
+https://github.com/gspannu/OPN-Plugins
 ---
 
 Update: 2026-07-15
